@@ -1,0 +1,19 @@
+{
+  "name": "appcolors",
+  "version": "1.0.0",
+  "description": "Projecom com módulos externos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cor",
+    "modulos"
+  ],
+  "author": "Matheus",
+  "license": "ISC",
+  "dependencies": {
+    "appcolors": "file:",
+    "colors": "^1.4.0"
+  }
+}
