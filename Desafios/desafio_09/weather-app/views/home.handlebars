@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Previsão do Tempo 🌤️</h1>
+    <form action="/weather" method="POST">
+        <input type="text" name="city" placeholder="Digite sua cidade">     
+        <button type="submit">Buscar</button>
+    </form>
+    {{#if error}}
+        <p class="error">{{error}}</p>
+    {{/if}}
+
+    {{#if weatherInfo}} <!-- Corrigido para 'weatherInfo' -->
+        <div class="weather-result">
+            <h2>{{weatherInfo.city}}</h2>
+            <p><strong>Temperatura: </strong> {{weatherInfo.temperature}} °C</p>
+            <p><strong>Descrição: </strong> {{weatherInfo.description}}</p>
+            <img src="{{weatherInfo.icon}}" alt="Ícone do Clima" />
+        </div>
+    {{/if}}
+</div>
