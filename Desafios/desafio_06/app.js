@@ -82,4 +82,4 @@ app.get('/')
 
 app.listen(3000, (req, res) => {
     console.log('rodando! http://localhost:3000');
-})
+});
