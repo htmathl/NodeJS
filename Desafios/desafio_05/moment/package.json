@@ -1,0 +1,15 @@
+{
+  "name": "moment",
+  "version": "1.0.0",
+  "description": "Desafio Momento (05)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1",
+    "momentjs": "^2.0.0"
+  }
+}
